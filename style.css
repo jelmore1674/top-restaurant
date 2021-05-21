@@ -1,1 +1,26 @@
 /** @format */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html body {
+    margin: 0;
+    background: linear-gradient(to right, red, blue);
+}
+
+#content {
+    display: flex;
+    height: 100vh;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+}
+
+.landing h1 {
+    font-size: 1.5rem;
+}
