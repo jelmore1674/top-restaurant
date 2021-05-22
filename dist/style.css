@@ -21,6 +21,37 @@ html body {
     background-color: #f0efe6;
 }
 
+#nav {
+    width: 100%;
+    display: flex;
+}
+
+.tabs {
+    background-color: #87c3cf;
+    color: #f0efe6;
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-shadow: 0.1rem 0.2rem 0.2rem #010101;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    width: 33.3%;
+    line-height: 2rem;
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+    cursor: pointer;
+}
+
+.tabs:hover {
+    background-color: #52a5b6;
+}
+
+#home {}
+
+.active {
+    background-color: #006e83;
+    border-right: 2px solid #71797c;
+}
+
 #content {
     height: 100vh;
 }
