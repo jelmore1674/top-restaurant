@@ -6,7 +6,8 @@ This project is for
 [_The Odin Project_.](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/restaurant-page)
 I will be creating a web application for a restaurant.
 
-In this project I will be using webpack.
+In this project I will be using CSS, JS, and webpack. All HTML will be created
+using JS.
 
 I will be adding updates and put my thoughts here to help expain what I have
 learned building this page.
@@ -42,3 +43,16 @@ responsive web application.
    current container.
 3. I will use an imported function that I can reuse to create the container for
    each tab.
+
+---
+
+## Updates
+
+### Update 1
+
+So far, I created the landing page. What I did was hard code the lanidng page.
+Then, I actually created component files for each section _header.js, about.js,
+footer.js_. Which held the content for the project. I then took those
+_"components"_ and created a _landingpage.js_ Which is where I imported all 3
+compnents and created a function that held the content for the entire landing
+page.
