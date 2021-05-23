@@ -1,7 +1,6 @@
 /** @format */
 
 // Import functions
-import _ from 'lodash';
 import { aboutSection } from './about';
 import { menuSec } from './menu';
 import { header } from './header';

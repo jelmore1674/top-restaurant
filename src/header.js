@@ -12,9 +12,9 @@ function header() {
     heading.innerText = "Reanne's Southern Kitchen";
     // Give Elements Classes
     tagline.classList.add('tagline');
-
     title.classList.add('title');
     landing.classList.add('landing');
+    // Append Elements
     tagline.appendChild(taglineTxt);
     title.appendChild(heading);
     landing.appendChild(title);

@@ -51,7 +51,6 @@ html body {
 }
 
 .last-tab {
-    border-right: none;
     background-color: #006e83;
     border-left: 2px solid #71797c;
 }
