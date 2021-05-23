@@ -1,11 +1,17 @@
 /** @format */
 
 function aboutSection() {
-    let about = document.createElement('div');
+    const home = document.getElementById('home');
+    const menu = document.getElementById('menu');
+    const contact = document.getElementById('contact');
+    let about = document.createElement('main');
     let aboutHeading = document.createElement('h2');
     let aboutSec = document.createElement('div');
     let aboutTxt = document.createElement('p');
     let aboutImg = document.createElement('img');
+    home.classList.add('active');
+    menu.classList.remove('active');
+    contact.classList.remove('active');
     about.classList.add('about');
     aboutSec.classList.add('about-sect');
     aboutHeading.innerText = 'Nothing Beats Homestyle!';

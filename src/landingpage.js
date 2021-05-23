@@ -6,13 +6,13 @@ import { header } from './header';
 import { nav } from './nav';
 
 function landingPage() {
-    let content = document.getElementById('content');
-    content.appendChild(nav());
-    let home = document.getElementById('home');
+    const home = document.getElementById('home');
+    const menu = document.getElementById('menu');
+    const contact = document.getElementById('contact');
     home.classList.add('active');
-    content.appendChild(header());
-    content.appendChild(aboutSection());
-    content.appendChild(footer());
+    menu.classList.remove('active');
+    contact.classList.remove('active');
+    about.appendChild(aboutSection());
     return content;
 }
 

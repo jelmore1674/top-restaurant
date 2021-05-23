@@ -1,10 +1,9 @@
 /** @format */
 
 function footer() {
-    let footer = document.createElement('div');
+    let footer = document.createElement('footer');
     let footerText = document.createElement('p');
-    let footerCon = document.createElement('footer');
-
+    let footerCon = document.createElement('div');
     footer.classList.add('footer');
     footerText.innerText =
         "This is not a real place, because my wife can't really cook. LOL!";

@@ -56,3 +56,14 @@ footer.js_. Which held the content for the project. I then took those
 _"components"_ and created a _landingpage.js_ Which is where I imported all 3
 compnents and created a function that held the content for the entire landing
 page.
+
+### Update 2
+
+I actually struggled to get the tab navigation to work, but my solution is one
+that is a little outside the box. So the problem that I incurred during this
+part of the project was, well one of my own fault. I was trying too hard to
+create _"Components"_. I tried a simple clear the div by using .innerHTML,
+problem was after doing that I have to call the .getElementById() after doing
+that in each function where I transition between the tabs. Now all I have left
+to do is to create the contact page, and finish up the styling so it is
+responsive.

@@ -1,7 +1,7 @@
 /** @format */
 
 function header() {
-    let landing = document.createElement('div');
+    let landing = document.createElement('section');
     let title = document.createElement('div');
     let heading = document.createElement('h1');
     let tagline = document.createElement('div');
