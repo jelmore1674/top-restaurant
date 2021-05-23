@@ -189,3 +189,67 @@ html body {
 .hidden {
     display: none;
 }
+
+.contact-container {
+    min-height: 90vh;
+    background-color: #a2afb4;
+    margin: 0 auto;
+}
+
+.contact {
+    color: #030303;
+    max-width: 80ch;
+    overflow: hidden;
+    padding: 2rem;
+    font-size: 1.3rem;
+    color: #010101;
+}
+
+.contact h2 {
+    color: #010101;
+    font-size: 1.5rem;
+    text-shadow: 0.1rem 0.2rem 0.2rem #cac7c5;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+form {
+    margin: 0.24rem;
+    font-size: 1.4rem;
+}
+
+#name {
+    margin-bottom: 0.75rem;
+    height: 2em;
+    border: none;
+    box-shadow: 1px 2px 2px #111;
+    width: 100%;
+    max-width: 75ch;
+}
+
+#email {
+    margin-bottom: 0.75rem;
+    height: 2rem;
+    border: none;
+    box-shadow: 1px 2px 2px #111;
+    width: 100%;
+    max-width: 75ch;
+}
+
+#textarea {
+    margin-bottom: 0.75rem;
+    border: none;
+    box-shadow: 1px 2px 2px #111;
+    width: 100%;
+    max-width: 75ch;
+}
+
+button {
+    border: none;
+    outline: none;
+    background-color: chartreuse;
+    border-radius: 500px;
+    width: 100%;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
