@@ -67,3 +67,8 @@ problem was after doing that I have to call the .getElementById() after doing
 that in each function where I transition between the tabs. Now all I have left
 to do is to create the contact page, and finish up the styling so it is
 responsive.
+
+## Project is Complete
+
+I have finished the project. It was a fun project. I really enjoyed working on
+the JavaScript for this project! I cannnot wait to get to the next challenge.

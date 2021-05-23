@@ -52,6 +52,7 @@ html body {
 
 .last-tab {
     border-right: none;
+    background-color: #006e83;
     border-left: 2px solid #71797c;
 }
 
@@ -83,18 +84,27 @@ html body {
     letter-spacing: 0.2rem;
     padding: 0.75rem;
     line-height: 2rem;
-    display: flex;
-    justify-items: center;
     opacity: 1;
     animation: fade 1.3s linear;
 }
 
+.tagline p {
+    text-align: center;
+}
+
+.about-container {
+    width: 100%;
+    background-color: #4c443e;
+    display: flex;
+    justify-content: center;
+}
+
 .about {
     padding: 0.5rem;
-    background-color: #4c443e;
     color: #f0efe6;
     opacity: 1;
     animation: fade 1.3s ease-in;
+    max-width: 85ch;
 }
 
 .about h2 {
@@ -129,6 +139,7 @@ html body {
 .footer {
     background-color: #8b2829;
     margin: 0;
+    text-align: center;
 }
 
 .footer p {
@@ -138,14 +149,27 @@ html body {
     padding: 0.5em;
 }
 
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+    animation: fade 1.3s linear;
+    justify-content: center;
+    align-items: center;
+    background-color: #87c3cf;
+    width: 100%;
+    max-width: 100%;
+}
+
 .menu {
     margin: 0 auto;
-    background-color: #87c3cf;
     padding: 1rem;
     width: 100%;
     font-size: 1.1rem;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     opacity: 1;
     animation: fade 1.3s linear;
 }
@@ -167,7 +191,7 @@ html body {
     border: 2px solid #4c443e;
     margin: 0.5em;
     padding: 0.5em;
-    max-width: 75ch;
+    max-width: 65ch;
 }
 
 .menu-item h3 {
@@ -191,9 +215,16 @@ html body {
 }
 
 .contact-container {
+    max-width: 100%;
+    width: 100%;
     min-height: 90vh;
     background-color: #a2afb4;
-    margin: 0 auto;
+    opacity: 1;
+    animation: fade 1.3s linear;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .contact {
@@ -203,6 +234,9 @@ html body {
     padding: 2rem;
     font-size: 1.3rem;
     color: #010101;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .contact h2 {
@@ -216,6 +250,9 @@ html body {
 form {
     margin: 0.24rem;
     font-size: 1.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #name {
@@ -252,4 +289,20 @@ button {
     width: 100%;
     font-size: 1.5rem;
     font-weight: 700;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+button:hover {
+    background-color: rgb(88, 177, 0);
+    transition: ease-in-out;
+    color: rgb(255, 254, 254);
+    transform: scale(1.05);
+}
+
+#mainContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

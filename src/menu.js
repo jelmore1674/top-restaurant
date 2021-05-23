@@ -4,6 +4,7 @@ function menuSec() {
     // Fried Chicken Plate Card
 
     // Create All Elements
+    let menuContainer = document.createElement('div');
     let menuSection = document.createElement('div');
     let menuItem = document.createElement('div');
     let menuItemHead = document.createElement('h3');
@@ -57,6 +58,7 @@ function menuSec() {
     menuPrice2.innerText = '$10.99';
     menuItem2.classList.add('menu-item');
     menuSection.classList.add('menu');
+    menuContainer.classList.add('menu-container');
     // Append to Menu-Item Card
     menuItem2.appendChild(menuItemHead2);
     menuItem2.appendChild(menuInfo2);
@@ -67,7 +69,8 @@ function menuSec() {
     menuSection.appendChild(menuItem1);
     menuSection.appendChild(menuItem2);
     menuSection.appendChild(menuBottom);
-    return menuSection;
+    menuContainer.appendChild(menuSection);
+    return menuContainer;
 }
 
 export { menuSec };
