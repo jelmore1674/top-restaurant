@@ -1,6 +1,4 @@
-/** @format */
-
-function header() {
+export function header() {
     // Create Elements
     let landing = document.createElement('section');
     let title = document.createElement('div');
@@ -21,5 +19,3 @@ function header() {
     landing.appendChild(tagline);
     return landing;
 }
-
-export { header };

@@ -1,17 +1,17 @@
-/** @format */
-
 // Import functions
 import { aboutSection } from './about';
-import { menuSec, MenuItem, menu } from './menu';
+import { menuSection } from './menu';
 import { header } from './header';
 import { footer } from './footer';
 import { nav } from './nav';
 import { contactSection } from './contact';
 
+// Import Classes
+import { MenuItem } from './menuItem';
+
 // Nav Items Array of Objects
 import { navItems } from './navItems';
-
-console.log(menu[1]);
+import { menu } from './menuItem';
 
 // Get containers
 const content = document.getElementById('content');
@@ -60,7 +60,7 @@ function menuFull() {
     document.getElementById('mainContent').innerHTML = '';
     // Append new section to it
     let content = document.getElementById('mainContent');
-    content.appendChild(menuSec());
+    content.appendChild(menuSection());
     // Create Selectors
     const home = document.getElementById('home');
     const menuPage = document.getElementById('menu');
