@@ -1,6 +1,4 @@
-/** @format */
-
-function footer() {
+export function footer() {
     // Create Elements
     let footer = document.createElement('footer');
     let footerText = document.createElement('p');
@@ -15,5 +13,3 @@ function footer() {
     footer.appendChild(footerCon);
     return footer;
 }
-
-export { footer };

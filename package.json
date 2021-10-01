@@ -21,6 +21,7 @@
         "webpack-cli": "^4.7.0"
     },
     "dependencies": {
+        "bootstrap": "^5.1.0",
         "lodash": "^4.17.21"
     }
 }

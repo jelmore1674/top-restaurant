@@ -1,12 +1,17 @@
-/** @format */
-
 // Import functions
 import { aboutSection } from './about';
-import { menuSec } from './menu';
+import { menuSection } from './menu';
 import { header } from './header';
 import { footer } from './footer';
 import { nav } from './nav';
 import { contactSection } from './contact';
+
+// Import Classes
+import { MenuItem } from './menuItem';
+
+// Nav Items Array of Objects
+import { navItems } from './navItems';
+import { menu } from './menuItem';
 
 // Get containers
 const content = document.getElementById('content');
@@ -14,7 +19,7 @@ const mainContent = document.createElement('main');
 mainContent.id = 'mainContent';
 
 // Append imported components to containers
-content.appendChild(nav());
+content.appendChild(nav(navItems));
 content.appendChild(header());
 mainContent.appendChild(aboutSection());
 content.appendChild(mainContent);
@@ -55,11 +60,18 @@ function menuFull() {
     document.getElementById('mainContent').innerHTML = '';
     // Append new section to it
     let content = document.getElementById('mainContent');
-    content.appendChild(menuSec());
+    content.appendChild(menuSection());
     // Create Selectors
     const home = document.getElementById('home');
     const menuPage = document.getElementById('menu');
     const contactTab = document.getElementById('contact');
+
+    const chicken = new MenuItem(menu[0]);
+    chicken.createElement();
+    const porkchop = new MenuItem(menu[1]);
+    porkchop.createElement();
+    const dumplins = new MenuItem(menu[2]);
+    dumplins.createElement();
     // Change Classes
     home.classList.remove('active');
     menuPage.classList.add('active');
